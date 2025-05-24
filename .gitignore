@@ -14,7 +14,7 @@ out/
 .settings
 .springBeans
 .sts4-cache
-Kotlin_1.iml
+
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
