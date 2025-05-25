@@ -5,7 +5,7 @@ fun main() {
     val isGoodWeather = readln().toBoolean();
     print("Сколько времени? ");
     val time = readln().toInt();
-    val isDay = (time < 22) && (time > 5);
+    val isDay = time in (6..21);
     if (isDay && isGoodWeather) {
         print("Иди гулять");
     } else if (isDay) {
